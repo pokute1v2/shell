@@ -16,5 +16,4 @@ fi
 echo "nhap n :  ** thoat dung exit ** "
 read n
 done
-
 exit
