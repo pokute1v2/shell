@@ -1,0 +1,20 @@
+#!/bin.sh
+echo "nhap n :  ** thoat nhap exit ** "
+read n
+e='exit'
+while [ $n != $e ]
+do
+if [ $n -gt 0 ]
+then
+echo "$n la so duong"
+elif [ $n -lt 0 ]
+then
+echo "$n la so am"
+else
+echo "$n la so 0"
+fi
+echo "nhap n :  ** thoat dung exit ** "
+read n
+done
+
+exit
