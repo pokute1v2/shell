@@ -7,4 +7,4 @@ i=$(( $i+1 ))
 tong=$(( $tong + $i ))
 done
 echo "tong tu 1 den $n la : $tong"
-exit
+exit 0
